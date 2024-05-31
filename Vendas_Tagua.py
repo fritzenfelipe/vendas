@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Ler a planilha
-caminho_arquivo = r'C:\Users\fritz\Documents\Phyton\abril_para_pandas.xlsx'
+caminho_arquivo = 'abril_para_pandas.xlsx'
 df = pd.read_excel(caminho_arquivo, engine='openpyxl')
 
 # Converter a coluna de data e hora para o tipo datetime
